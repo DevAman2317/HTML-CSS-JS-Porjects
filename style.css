@@ -1,0 +1,48 @@
+#ele{
+    background-color: lightgray;
+   display: flex;
+   flex-direction: column;
+   padding: 30px;
+}
+h1{
+    text-align: center;
+    color: darkred;
+}
+label{
+    font-weight: bold;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+}
+button{
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px black ;   
+    font-weight: 600;
+    font-size: larger;
+
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+}
+input::placeholder {
+    color: #999; /* Set the color of the placeholder text */
+    font-style: italic; /* Set the font style of the placeholder text */
+}
+button:hover{
+    background-color: rgb(44, 13, 13);
+}
